@@ -1,9 +1,10 @@
 /* Navbar_Area_Here */
 
 .navbar-brand{
-    color: #0D2415 !important;
-    font-size: 32px !important;
-    font-weight: 600;
+    /* color: #0D2415 !important; */
+    color: #594C8D !important;
+    font-size: 35px !important;
+    font-weight: bold;
 }
 
 .navbar-nav {
@@ -11,14 +12,18 @@
 }
 
 .nav-link {
-    color: black !important;
-    font-size: 20px !important;
+    /* color: #ffff !important; */
+    font-size: 17px !important;
+    font-weight: 700 !important;
     padding: 0px 20px !important;
 }
 
 .nav_btn {
-    padding: 10px 30px !important;
-    font-size: 20px !important;
+    padding: 10px 25px !important;
+    font-size: 18px !important;
+    background-color: #594C8D !important;
+    color: #fff !important;
+    font-weight: 700 !important;
 }
 
 .navbar-toggler {
@@ -30,7 +35,7 @@
 #hero_area {
     
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .custom_width {
@@ -39,25 +44,43 @@
 
 .hero_content {
     h1 {
-        line-height: 50px;
-        margin-top: 20px;
-        font-size: 42px;
-        font-weight: 600;
+        color: #212529;
+        line-height: 62px;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
 
 .hero_img img {
     width: 100%;
-    height: 400px;
+    height: 440px;
     border-radius: 5px;
 }
 
-.hero_btn2 a {
-    text-decoration: none;
-    transition: all .3s !important;
+.hero_btn {
+    padding: 10px 30px !important;
+    font-size: 18px !important;
+    color: #594C8D !important;
+    border-radius: 30px !important;
+    border: 1px solid #594C8D !important;
 }
-.hero_btn2:hover {
-    a {
-        color: #ffff;
-    }
+
+.hero_btn:hover {
+    background-color: #594C8D !important;
+    color: #ffff !important;
+}
+
+/* Pages_Area_Here */
+
+#pages_area {
+    padding-top: 100px;
+    padding-bottom: 500px;
+    background-color: #D4D5E5;
+}
+
+#page_area {
+    padding-top: 100px;
+    padding-bottom: 500px;
+    
 }
