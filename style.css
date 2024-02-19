@@ -1,7 +1,6 @@
 /* Navbar_Area_Here */
 
 .navbar-brand{
-    /* color: #0D2415 !important; */
     color: #594C8D !important;
     font-size: 30px !important;
     font-weight: bold;
@@ -12,7 +11,6 @@
 }
 
 .nav-link {
-    /* color: #ffff !important; */
     font-size: 17px !important;
     font-weight: 700 !important;
     padding: 0px 20px !important;
@@ -101,7 +99,6 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    /* background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%); */
 }
 
 .about_img {
@@ -378,9 +375,110 @@
     }
 }
 
-/* Blog_Area_Here */
+/* Contact_Area_Here */
 
-#blog_area {
+#contact_area {
     padding-top: 100px;
-    padding-bottom: 100px;
+    background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%); 
+}
+
+.border_bottom {
+    border-bottom: 3px solid rgb(183, 173, 173);
+    padding-bottom: 80px;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-group {
+    padding: 0px 10px !important;
+}
+
+.form-control {
+    font-weight: 600 !important;
+    padding: 10px !important;
+}
+
+.write_message {
+    padding-bottom: 100px !important;
+}
+
+.contact_btn {
+    padding: 10px 30px !important;
+    font-size: 18px !important;
+    color: #594C8D !important;
+    border: 1px solid #594C8D !important;
+    border-bottom: 3px solid black !important;
+}
+
+.contact_btn:hover {
+    background-color: #594C8D !important;
+    color: #ffff !important;
+}
+
+/* Contact_Responsive_Area_Here */
+
+@media (max-width: 767px){
+    .form-row {
+        display: grid;
+    }
+}
+
+/* Footer_Area_Here */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer_icon {
+    display: flex;
+    justify-content: end;
+    gap: 6px;
+
+    li {
+        list-style: none;
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid #594C8D;
+        transition: all .3s;
+    }
+}
+
+.footer_icon li:hover {
+    background-color: #594C8D;
+}
+
+.footer_content p {
+    color: #6a6c71;
+    a {
+        text-decoration: none;
+        color: #594C8D;
+    }
+}
+
+.footer_icon li a i {
+    font-size: 19px;
+    padding: 10px;
+    color: #594C8D;
+    transition: all .3s;
+}
+
+.footer_icon li a i:hover {
+    color: #ffff;
+}
+
+/* Footer_Responsive_Area_Here*/
+
+@media (max-width: 767px){
+    .footer_content {
+        text-align: center;
+    }
+
+    .footer_icon {
+        justify-content: center;
+    }
 }
